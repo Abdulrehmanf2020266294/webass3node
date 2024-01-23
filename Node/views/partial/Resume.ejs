@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <link rel="stylesheet" href="public/css/style.css">
+
+</head>
+<body>
+    <header>
+        <%- include ("navbar.ejs") %>
+    </header>
+    <section class="container py-5" id="cv">
+        <div class="row mt-4 py-3">
+          <div class="col-12 d-flex flex-column text-center">
+            <h2>Resume</h2>
+            <h5 class="text-secondary fw-normal py-2 fst-italic">Resume Below</h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 mt-5 order-lg-0 order-1 text-center">
+            
+            <h2 class="mt-3">Hamza Shahbaz</h2>
+            <ul class="list-unstyled contact-info">
+              <li><i class="fas fa-envelope me-2"></i> Hamzashahbaz1205@gmail.com</li>
+              <li><i class="fas fa-phone me-2"></i>0331-4004444</li>
+              <li><i class="fas fa-map-marker-alt me-2"></i> House 9 Street 9. Allama Iqbal Road</li>
+            </ul>
+            <ul class="social-icons my-5 d-flex justify-content-center">
+              <a href="https://github.com/Abdulrehmanf2020266294" class="bg-primary mx-2 text-white d-flex align-items-center justify-content-center text-decoration-none rounded-circle"><i class="fa-brands fa-github"></i></a>
+              
+              <a href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQFkpWnOI4ZjmAAAAY04FVKQ8btMIlxJ6Z44zXEevxkp-0T_oG2YNHAd5dJWI_ccJ20xUqbG1XiZPFJJOJkXLyhJsPReGUlnLgC-1Ww044ddQc1ORIwoF1x0igVZG0PGkT519Mc=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fabdulrehman-ijaz-abbb9020a%2F" class="bg-primary mx-2 text-white d-flex align-items-center justify-content-center text-decoration-none rounded-circle"><i class="fa-brands fa-linkedin-in"></i></a>
+            </ul>
+            <h5>Technical Skills</h5>
+            <ul class="list-unstyled">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Python</li>
+              <li>Power Platforms</li>
+              
+            </ul>
+            <h5>Personal Interests</h5>
+            <ul class="list-unstyled">
+              <li>New Tech Methods</li>
+              <li>Badminton</li>
+            </ul>
+          </div>
+          <div class="col-lg-7 order-lg-1 order-0 mt-5 text-start">
+            <h3>Profile</h3>
+            <hr>
+            <p>Enthusiastic about Microsoft Power Platform and Data mining, I am keen on playing a key role in designing enterprise solutions. Seeking to gain experience in web and software development, 
+               I aim to leverage my skills to contribute innovative solutions for optimized business processes and data-driven decision-making. Ready to apply theoretical learning to real-world tech applications.</p>
+            <h3>Highlights of Qualifications</h3>
+            <hr>
+            <ul>
+              <li>Certificate for Making model driven app</li>
+              <li>NodeJS</li>
+              
+            </ul>
+            <h3>Education</h3>
+            <hr>
+            <dl>
+              <dt>2020-2024</dt>
+              <dd>UMT</dd>
+              <dd>Degree/Program</dd>
+            </dl>       
+           
+            <h3>Extracurricular Activities</h3>
+            <hr>
+            <dl>
+              <dt>Bookme</dt>
+              <dd>BrandAmbassador</dd>
+              <dd>Worked as a brandambassador during asia cup matches in Lahore</dd>
+            </dl>
+          </div>
+        </div>      
+      </section>
+       
+       <%- include ("footer.ejs") %>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
